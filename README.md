@@ -27,9 +27,21 @@ Built on [Tiago Forte's PARA methodology](https://fortelabs.com/blog/para/) and 
    - `{{SHORT_BIO}}` — one line: age, location, what you do
    - `{{LONG_TERM_GOAL}}` — your broad life direction in one sentence
 3. Open `assessments/CLAUDE.md` and customise the Wheel of Life pillars to reflect your life areas
-4. Start Claude Code **in this directory** and just start talking
+4. Start Claude Code **in this directory** and have your first conversation (see prompts below)
 
 That's it. You don't need to understand PARA or the full system to begin. The system teaches itself to you through use — `/process` will show you how PARA works by proposing where your thoughts should go.
+
+### Your first conversation
+
+Pick one of these to start with. Say it in your own words — don't overthink it.
+
+1. **What's taking up the most mental space in your life right now?**
+2. **What's one thing you keep meaning to sort out but haven't?**
+3. **If you could only fix one area of your life this quarter, what would it be?**
+4. **What's actually going well that you haven't given yourself credit for?**
+5. **What would you be embarrassed to still be dealing with in 6 months?**
+
+After that, let the coach ask you questions. It will dig deeper, make connections, and help you think things through. When the conversation reaches a natural pause, run `/process` to capture anything worth keeping.
 
 ### When you're ready (not now)
 
@@ -92,6 +104,16 @@ The core system works without any integrations. If you use a task manager with a
 1. Save a token file (e.g. `.todoist_token`) — these are gitignored
 2. Add API commands to `CLAUDE.md` under an integrations section
 3. Add relevant permissions to `.claude/settings.local.json`
+
+## What this has surfaced for people
+
+Real moments from using this system:
+
+- **A health root cause chain became visible.** Tracking a health project in PARA revealed a dependency chain: low energy → poor sleep → undiagnosed sleep apnoea. The system made a complex health puzzle navigable by keeping all the threads in one place — one sleep study later, everything shifted.
+- **A broken habit system got redesigned.** Tracking 5-10 habits on paper kept failing. Talking it through revealed the real problem: remembering to check the list was itself a habit that never stuck. The fix was fewer habits with timed push reminders instead of a long pull list. The insight was that the system design was wrong, not the discipline.
+- **A new life area appeared without being noticed.** "Community" didn't exist as a life area until a quarterly assessment forced the question. Turns out real progress had been happening — co-founding an organisation, attending meetings — but it hadn't been named or acknowledged.
+- **The system called out its own over-optimisation.** Multiple attempts to restructure files and add new tags were met with pushback from the coach: "there are gaping holes in the existing content — fill those first." The system kept its user honest.
+- **Commit history contradicted the feeling of stuckness.** After a quarter that felt like nothing had moved, `/radar` used `git log` to show what actually changed. The diffs told a different story — real progress buried under the feeling of being stuck.
 
 ## Philosophy
 
