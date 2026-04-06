@@ -99,11 +99,10 @@ Tags live inline where the context is. When done, delete the tag (commit history
 
 ## Integrations (optional)
 
-The core system works without any integrations. If you use a task manager with an API (Todoist, TickTick, etc.), you can:
+The core system works without any integrations but they are nice add ons.
 
-1. Save a token file (e.g. `.todoist_token`) — these are gitignored
-2. Add API commands to `CLAUDE.md` under an integrations section
-3. Add relevant permissions to `.claude/settings.local.json`
+1. If you use a task manager with an API (Todoist, TickTick, etc.), you can: Save a token file (e.g. `.todoist_token`) — these are gitignored, Add API commands to `CLAUDE.md` under an integrations section, Add relevant permissions to `.claude/settings.local.json`
+2. use himalaya cli to connect to your emails
 
 ## What this has surfaced for people
 
